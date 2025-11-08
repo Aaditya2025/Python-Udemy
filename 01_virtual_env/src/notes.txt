@@ -1,0 +1,17 @@
+
+Common commands
+1. Create a virtual environment:  "python -m venv myenv"
+2. Activate it
+    Windows:  myenv\Scripts\activate
+    Mac/Linux: source myenv/bin/activate
+3. Deactivate it: deactivate
+
+
+Example scenario:
+Project A needs Django 3.2
+Project B needs Django 5.0
+→ You create two separate virtual environments, each with its own Django version, without conflicts.
+
+So, a virtual environment is basically a project-specific Python setup containing its own installed packages, keeping everything clean and conflict-free.
+
+THIS IS THE TRADITIONAL WAY TO CREATE VIRTUAL ENVIRONMENT AND USE IT.
