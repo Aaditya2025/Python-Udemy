@@ -27,3 +27,10 @@ print(f"chai: {chai_ingredients}")
 sugar_levels = [1,2,3,4,5]; 
 print(f"Maximum Sugar levers: {max(sugar_levels)}"); 
 print(f"Minimum Sugar levels: {min(sugar_levels)}"); 
+
+strong_brew = ["black tea", "water"] * 3;  #So this is Operator Overloading.
+print(f"{strong_brew}"); 
+
+raw_spice_data = bytearray(b"CINNAMON"); 
+raw_spice_data = raw_spice_data.replace(b"CINN", b"CARD")
+print(f"Bytes: {raw_spice_data}"); 
