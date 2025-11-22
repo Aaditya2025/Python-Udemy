@@ -1,4 +1,4 @@
-# Integer
+# Integer:
 
 black_tea_grams = 14
 ginger_grams = 3 
@@ -19,14 +19,14 @@ reader = 4
 books_per_reader = books // reader       #Here we use '//' which remove the decimals values. 
 print(f"Total books per reader is {books_per_reader}")
 
-# For remainder 
+# For remainder we use '%':
 a = 10; 
 b = 3; 
 remainder = a % b; 
 
 print(remainder)
 
-# Exponential Calculation here we use '**'
+# Exponential Calculation here we use '**':
 
 a = 2; 
 b = 3; 
