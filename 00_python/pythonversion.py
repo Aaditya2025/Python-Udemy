@@ -25,3 +25,4 @@ print("Line 2")                 # prints on same line
 # Expression-friendly
 # Future-proof
 
+# NOTE: In the python range is never inclusive. 
