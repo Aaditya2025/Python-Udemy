@@ -10,3 +10,5 @@ def update_order():
     print("After kitchen update", chai_type)
 
 update_order()
+
+#NOTE: 'nonlocal' keyword is designed to access the just above variable. 
