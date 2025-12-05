@@ -27,5 +27,5 @@ def special_chai(*ingredients, **extras):
 special_chai("Cinnamon", "Cardmom", sweetner="Honey", foam="Yes")
 
 
-#args: The argument without keyword is called args. 
-#kwargs: The argument with keowrd is called kwargs.     
+#args: The argument without keyword is called args. The value considered as Tuple. 
+#kwargs: The argument with keyword is called kwargs. The value considered as Dictionary.     
