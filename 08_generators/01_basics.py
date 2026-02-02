@@ -26,9 +26,9 @@ def get_chai_gen():
 
 chai = get_chai_gen()
 
-print(chai)  #Here we do not get the result because chai just pointing reference the generator func. 
+print(chai)  #Here we do not get the result because chai just pointing reference to the generator func. 
 
 print(next(chai))  #This is the way we get result we have to use next method. 
 print(next(chai))
 print(next(chai))
-# print(next(chai))  #This will produce error because generator fun. hold the status of value in the memory so next method try to find the next value but won't get, that is why produce error.     
+# print(next(chai))  #This will produce error because generator fun. hold the status of all value in the memory so next method try to find the next value but won't get, that is why produce error.     
