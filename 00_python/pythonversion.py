@@ -15,7 +15,7 @@ print("My name is %s and I am %d years old." % (name, age))
 # 3. With sep and end:
 print("A", "B", "C", sep="-")   # A-B-C
 print("Line 1", end=" ")
-print("Line 2")                 # prints on same line
+print("Line 2")                 # 'end' keyword makes it prints on the same line
 
 # NOTES: 
 # ✅ Use f-strings for all modern Python code.
