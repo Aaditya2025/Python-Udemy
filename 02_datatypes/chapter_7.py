@@ -1,4 +1,6 @@
-# List[]: It is mutable. Just like an array.
+# List[]: It is mutable. Just like an array.  
+# A list is: ordered, mutable, allows duplicate values.
+# Important features: Dynamic size, Most commonly used collection, Supports mixed data types. Ex: data = [10, "hello", True]
 
 ingredients = ["water", "milk", "black tea"]; 
 ingredients.append("sugar"); 

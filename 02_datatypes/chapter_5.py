@@ -8,7 +8,7 @@ print(f"Order of {customer_name} : {chai_type} please!")
 
 chai_description = "Aromatic and Bold"
 print(f"First word: {chai_description[:8]}")  #In string slicing the last word is not inclusive. 
-print(f"Last word: {chai_description[12:]}")
+print(f"Last word: {chai_description[12:]}")  #But in this case it is inclusive. 
 print(f"Reverse string: {chai_description[::-1]}")  #-1 is used for reversing the string.
 
 label_text = "Chai Spécial"

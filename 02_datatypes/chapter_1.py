@@ -10,3 +10,6 @@ print(f"Second Initial sugar: {sugar_amount}")
 
 print(f"ID of 2: {id(2)}"); 
 print(f"ID of 12: {id(12)}")
+
+#Immutable Data Types: int, float, str, tuple, bool. 
+#Mutable Data Types: list, dict, set and most custom objects

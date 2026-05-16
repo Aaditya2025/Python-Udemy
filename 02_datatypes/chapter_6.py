@@ -1,4 +1,5 @@
-# Tuples (): It is immutable.
+# Tuples (): It is immutable. Tuples cannot be modified.
+# Tuples are: faster than lists, safer for fixed data, hashable (usable as dictionary keys). Ex: location = (28.61, 77.20)
 
 masala_spices = ("cardamom", "cloves", "cinnamon")
 
