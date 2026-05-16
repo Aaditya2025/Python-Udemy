@@ -9,6 +9,9 @@ print(f"All spices are: {all_spices}");
 common_spices = essential_spices & optional_spices; # Using '&' this operator we apply the intersection on a set.  
 print(f"Common spices are: {common_spices}"); 
 
+optional_spices.discard("cloves");  # Use 'discard instead of remove because No error if item absent.
+print(f"New optional spices are", optional_spices)
+
 # How to checkout the only items which are only present in any set.
 
 only_in_essential = essential_spices - optional_spices; # '-' is used to extract the item which are only present in the set. 
