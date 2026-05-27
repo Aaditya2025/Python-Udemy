@@ -4,7 +4,7 @@ def chai_flavor(flavor="masala"):
     chai = "ginger"
     return flavor
 
-print(chai_flavor.__doc__)   #Anything written in two underscore called dunder. 
+print(chai_flavor.__doc__)   #Anything written in two underscore called dunder. Return the docs written inside the fun n first line only.
 print(chai_flavor.__name__)
 
 

@@ -6,6 +6,10 @@
 
 # Types of comprehensions: List , Sets, Dictionary, Generators 
 
+#NOTE: Everything we do using comprehension can be done by using loop. 
+
+#List Comprehension: []
+
 menu = [
     "Masala Chai", 
     "Iced Lemon Tea", 
