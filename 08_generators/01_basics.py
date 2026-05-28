@@ -1,6 +1,6 @@
 # Gnerators: 
-# 1. You save memory
-# 2. You don't want result immedietely
+# 1. You save memory and this is the main feature. 
+# 2. You don't want result immedietely, it provide in result in stream. 
 # 3. Lazy evaluation  ; These are things we get by using generators and it also uses a keyword called 'yield'. 
 
 
