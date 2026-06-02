@@ -14,4 +14,4 @@ print("Direct look into the class ", Chai.temperature)
 del cutting.temperature
 del cutting.cup
 print(cutting.temperature)  #it will take value from the class after del still not show error. 
-print(cutting.cup)  #this is called shadowing it will through error 
+print(cutting.cup)  #this is called shadowing it will through error.
