@@ -17,13 +17,13 @@ class ChaiShop:
 
     def serve(self): 
         print(f"Serving {self.chai.type} chai in the shop")
-        self.chai.prepare() 
+        self.chai.prepare()      #See this is called composition we are doing getting access of parent class method. 
 
 class FancyChaiShop(ChaiShop): 
     chai_cls = MasalaChai
 
 shop = ChaiShop() 
-fancy = FancyChaiShop() 
+fancy = FancyChaiShop()    #fancy: Now this variable get access of all the methods present in the FancyChaiShop() Class. 
 shop.serve()
 shop.serve() 
-fancy.chai_cls.add_spices()
+fancy.chai.add_spices()  #here we are inheriting ChaiShop so for getting access of methods of MasalaChai we need to use variable which have reference of MasalaChai.       
