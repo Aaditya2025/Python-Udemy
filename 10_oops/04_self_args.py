@@ -2,7 +2,7 @@ class ChaiCup:
     size = 150 
 
     def describe(self): 
-        return f"A {self.size}ml chai cup"    #Inside class if we need to use any fun. or property then we use 'self'. 
+        return f"A {self.size}ml chai cup"    #Inside class if we need to use any fnc. or property then we use 'self'. 
 
 
 cup = ChaiCup()
