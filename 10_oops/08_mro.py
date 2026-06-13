@@ -1,5 +1,4 @@
 # Method Resolution Order : 
-
 class A: 
     label = "A: Base Class"
 
