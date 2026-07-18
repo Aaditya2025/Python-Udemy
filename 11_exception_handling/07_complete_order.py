@@ -17,6 +17,6 @@ def bill(flavor, cups):
     finally:
         print("Thank you for visiting chaicode!")
 
-bill("mint", 2)
-bill("masala", "three")
+# bill("mint", 2)
+# bill("masala", "three")
 bill("ginger", 3)

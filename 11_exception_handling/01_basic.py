@@ -11,4 +11,4 @@ Below are few Error type we see in python:
 
 orders = ["iphone", "vivo", "samsung"]
 
-print(orders[3])    #get index error.
+print(orders[3])    #get index error.   
